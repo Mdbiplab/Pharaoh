@@ -1,0 +1,300 @@
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {}
+
+/* X-Large devices (large desktops, 1200px to 1399.98px) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+  .hero_con h1 {
+    font-size: 25px;
+  }
+
+  .hero_con p {
+    font-size: 20px;
+  }
+
+  .feature_main_con {
+    flex-wrap: wrap;
+    column-gap: 80px;
+  }
+
+  .feature_con {
+    width: calc(33.3% - 53.3px);
+  }
+
+  .feature_con ul li {
+    font-size: 12px;
+  }
+
+
+}
+
+
+
+/* Large devices (desktops, 992px to 1199.98px) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .container {
+    width: 80%;
+  }
+
+  .hero_con h1 {
+    font-size: 24px;
+  }
+
+  .hero_con p {
+    font-size: 19px;
+  }
+
+  .feature_main_con {
+    flex-wrap: wrap;
+    column-gap: 80px;
+  }
+
+  .feature_con {
+    width: calc(33.3% - 53.3px);
+  }
+
+  .feature_con ul li {
+    font-size: 12px;
+  }
+
+}
+
+/* Medium devices (tablets, 768px to 991.98px) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .container {
+    width: 80%;
+  }
+
+  .hero_con {
+    padding: 230px 0px;
+  }
+
+  .hero_con h1 {
+    font-size: 24px;
+    line-height: 1.4;
+  }
+
+  .hero_con p {
+    font-size: 17px;
+  }
+
+  .demo_part {
+    padding: 80px 0px;
+  }
+
+  .demo_con {
+    width: calc(50% - 20px);
+  }
+
+  .feature_part {
+    padding: 70px 0px;
+  }
+
+  .feature_main_con {
+    flex-wrap: wrap;
+    column-gap: 80px;
+    row-gap: 40px;
+  }
+
+  .feature_con {
+    width: calc(50% - 40px);
+  }
+
+  .feature_con ul li {
+    font-size: 12px;
+  }
+
+  .feature_con_res {
+    width: 100%;
+  }
+
+  .support_part {
+    padding: 70px 0px;
+  }
+
+  .heading {
+    margin-bottom: 0px;
+  }
+
+  .social_part {
+    padding: 70px 0px;
+  }
+
+}
+
+/* Small devices (landscape phones, 576px to 767.98px) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .container {
+    width: 80%;
+  }
+
+  .hero_con {
+    padding: 145px 0px;
+  }
+
+  .hero_con h1 {
+    font-size: 20px;
+    line-height: 1.4;
+  }
+
+  .hero_con p {
+    font-size: 12px;
+  }
+
+  .btn_group a {
+    width: 130px;
+    height: 36px;
+    line-height: 36px;
+  }
+
+  .counter_part {
+    padding: 65px 0px 35px;
+  }
+
+  .counter_main_con {
+    flex-wrap: wrap;
+  }
+
+  .demo_part {
+    padding: 60px 0px;
+  }
+
+  .heading {
+    margin-bottom: 50px !important;
+  }
+
+  .demo_con {
+    width: calc(100%);
+  }
+
+  .feature_part {
+    padding: 60px 0px;
+  }
+
+  .feature_main_con {
+    flex-wrap: wrap;
+    row-gap: 40px;
+    margin-top: 55px;
+  }
+
+  .feature_con {
+    width: calc(100%);
+    margin-left: 90px;
+  }
+
+  .feature_con ul li {
+    font-size: 16px;
+  }
+
+  .support_part {
+    padding: 55px 0px;
+  }
+
+  .support_con .heading {
+    margin-bottom: 0px !important;
+  }
+
+  .social_part {
+    padding: 55px 0px;
+  }
+
+}
+
+/* x-small devices (portrait phones, 320px to 576px) */
+@media (min-width: 320px) and (max-width: 575.98px) {
+  .container {
+    width: 80%;
+  }
+
+  .hero_con {
+    padding: 80px 0px;
+  }
+
+  .hero_con h1 {
+    font-size: 22px;
+    line-height: 1.4;
+  }
+
+  .hero_con p {
+    font-size: 12px;
+  }
+
+  .btn_group a {
+    width: 130px;
+    height: 36px;
+    line-height: 36px;
+    margin: 25px 10px 0px 0px;
+  }
+
+  .counter_part {
+    padding: 55px 0px 35px;
+  }
+
+  .counter_main_con {
+    flex-wrap: wrap;
+  }
+
+  .demo_part {
+    padding: 45px 0px;
+  }
+
+  .heading {
+    margin-bottom: 45px !important;
+  }
+
+  .heading h2 {
+    font-size: 25px;
+  }
+
+  .heading p {
+    font-size: 12px;
+  }
+
+  .demo_con {
+    width: calc(100%);
+  }
+
+  .feature_part {
+    padding: 45px 0px;
+  }
+
+  .feature_main_con {
+    flex-wrap: wrap;
+    row-gap: 40px;
+    margin-top: 50px;
+  }
+
+  .feature_con {
+    width: calc(100%);
+    margin-left: 39px;
+  }
+
+  .feature_con ul li {
+    font-size: 12px;
+  }
+
+  .support_part {
+    padding: 45px 0px;
+  }
+
+  .support_con .heading {
+    margin-bottom: 0px !important;
+  }
+
+  .support_con .heading h2 {
+    font-size: 18px;
+    padding: 15px 0px;
+  }
+
+  .support_con .heading p {
+    margin: 0px 0px 5px;
+  }
+
+  .social_part {
+    padding: 46px 0px;
+  }
+
+  .footer_con p {
+    font-size: 11px;
+    line-height: 11px;
+  }
+}
